@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ContentWithImage from '../components/ContentWithImage.astro';
 import About from '../components/About.md';
 ---
 
 <Layout title="About">
-  <main class="prose lg:prose-xl">
-    <About />
+  <main>
+    <ContentWithImage image="/images/meeting_vertical.jpg">
+      <About />
+    </ContentWithImage>
   </main>
 </Layout>
