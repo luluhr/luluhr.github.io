@@ -11,20 +11,24 @@ function cls(href: string) {
 }
 ---
 <div class="navbar px-8">
+  <!-- Logo -->
   <div class="flex-1">
     <img src="/images/luluhr.png" alt="Lulu HR" class="h-30 w-60" />
   </div>
+
   <div class="flex-none">
-    // PC menu
-    <ul class="menu menu-vertical lg:menu-horizontal menu-compact lg:menu-normal lg:px-12 invisible lg:visible">
+
+    <!-- PC Menu -->
+    <ul class="menu menu-vertical md:menu-horizontal menu-compact md:menu-normal md:px-12 invisible md:visible">
     {items.map((item) => (
       <>
         <li><a href={item.href} class={cls(item.href)}>{item.label}</a></li>
       </>
     ))}
     </ul>
-    // Mobile menu
-    <div class="dropdown dropdown-bottom dropdown-end lg:invisible">
+
+    <!-- Mobile Menu -->
+    <div class="dropdown dropdown-bottom dropdown-end md:invisible">
       <label tabindex="0" class="btn btn-success btn-active m-1">
     	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
     	  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
