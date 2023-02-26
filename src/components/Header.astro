@@ -7,7 +7,7 @@ const items = [
 ];
 
 function cls(href: string) {
-	return href === Astro.url.pathname.replace(/\/$/, '') ? 'active' : '';
+	return href.replace(/\/$/, '') === Astro.url.pathname.replace(/\/$/, '') ? 'active' : '';
 }
 ---
 <div class="navbar md:px-8 shadow-xl">
