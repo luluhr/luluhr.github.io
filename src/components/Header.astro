@@ -19,7 +19,7 @@ function cls(href: string) {
   <div class="flex-none">
 
     <!-- PC Menu -->
-    <ul class="menu menu-horizontal menu-compact md:menu-normal md:px-12 invisible md:visible">
+    <ul class="menu menu-horizontal menu-compact md:menu-normal md:px-12 hidden md:flex">
     {items.map((item) => (
       <>
         <li><a href={item.href} class={cls(item.href)}>{item.label}</a></li>
