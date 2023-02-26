@@ -2,6 +2,7 @@
 const items = [
 	{ href: '/', label: 'Home' },
 	{ href: '/about', label: 'About' },
+	{ href: '/services', label: 'Services' },
 	{ href: '/contact', label: 'Contact' },
 ];
 
@@ -9,12 +10,12 @@ function cls(href: string) {
 	return href === Astro.url.pathname ? 'active' : '';
 }
 ---
-<div class="navbar bg-base-100">
+<div class="navbar px-8">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl">Lulu HR</a>
+    <img src="/images/luluhr.png" alt="Lulu HR" class="h-30 w-60" />
   </div>
   <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
+    <ul class="menu menu-horizontal px-12">
     {items.map((item) => (
       <>
         <li><a href={item.href} class={cls(item.href)}>{item.label}</a></li>
