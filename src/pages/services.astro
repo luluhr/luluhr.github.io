@@ -1,17 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ContentWithImage from '../components/ContentWithImage.astro';
-import Services from '../components/Services.md';
+import Service1 from '../components/Service1.md';
+import Service2 from '../components/Service2.md';
+import Service3 from '../components/Service3.md';
 ---
 
 <Layout title="About">
   <main>
     <ContentWithImage image="/images/service1.jpg">
-      <Services />
+      <Service1 />
     </ContentWithImage>
 
     <ContentWithImage image="/images/service2.jpg">
-      <Services />
+      <Service2 />
     </ContentWithImage>
+
+    <ContentWithImage image="/images/service3.jpg">
+      <Service3 />
+    </ContentWithImage>
+
   </main>
 </Layout>
