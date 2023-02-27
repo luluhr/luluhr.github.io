@@ -8,9 +8,7 @@
 
 ### *We look forward to working with you*.
 
-###### Work Hours: 
- * Mon-Fri 
-   + 09:00 am – 05:00 pm
+###### Work Hours: Mon-Fri 09:00 am – 05:00 pm
 
 
 
