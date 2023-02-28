@@ -1,4 +1,4 @@
-##  Direct-hire Full-Time Employment
+##  Direct-hire Employment
 
 Through our direct-hire staffing program, we assist clients with sourcing, recruiting and hiring exceptional talent for permanent positions. Our Direct-Hire program is designed to make the hiring process less stressful, less time consuming, and less costly. We have practices specializing in entry-level to non-managerial positions, as well as professional- to C-level positions.
 
