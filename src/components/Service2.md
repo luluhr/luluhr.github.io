@@ -1,7 +1,2 @@
 ##  Temporary/Contract Employment 
-
-Temporary workers are essential for organizations with constantly changing project workloads and seasonal skill needs. We have the resources and expertise needed to support your project success and increase your business competitiveness.  
-
-Lulu’s contract staffing services help employers find temporary and temp to hire through a streamlined hiring process optimized for quick and cost-effective recruitment, as well as on-site team management.
-
-
+Our temporary staffing services can be a valuable solution for businesses with fluctuating project workloads and seasonal skill needs. We provide a streamlined hiring process that is quick and cost-effective, making it easy to find temporary workers or temp-to-hire candidates. With our temporary staffing services, you can increase your business competitiveness by having access to a flexible workforce that can adapt to your changing needs without the long-term commitment and expense of hiring permanent employees.
