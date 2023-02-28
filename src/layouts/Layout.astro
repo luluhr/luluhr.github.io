@@ -19,11 +19,13 @@ const { title } = Astro.props;
   <title>{title}</title>
   </head>
   <body class="bg-gray-200 font-serif">
-    <div class="flex flex-col place-content-stretch min-h-screen">
-    <Header />
-      <div class="flex-grow">
-    <slot />
-    </div>
+    <div class="flex flex-col h-screen justify-between">
+      <div class="h-30">
+        <Header/>
+      </div>
+      <main class="overflow-scroll">
+        <slot />
+      </main>
       <Footer />
     </div>
   </body>
