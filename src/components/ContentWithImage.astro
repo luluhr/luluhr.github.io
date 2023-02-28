@@ -6,7 +6,7 @@ export interface Props {
 const { image } = Astro.props;
 ---
 <div class="card lg:card-side shadow-xl card-compact lg:card-normal">
-  <div class="prose lg:prose-xl pt-5 pl-8 md:w-full">
+  <div class="prose pt-5 pl-8 md:w-full">
     <slot />
   </div>
   <figure><img src={image} alt="Lulu HR"/></figure>
